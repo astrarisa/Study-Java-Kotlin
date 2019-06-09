@@ -1,0 +1,31 @@
+Commands in terminal for local use and Git
+                                                                WINDOWS                     MAC
+Changing directories
+    Change directory                                        cd [folder]                 cd [folder]
+    Get back by one directory level                         cd..                        cd..
+    List the items in chosen directory                      dir                         ls
+    Show what is in directory                               dir + tab (or + "Folder name")
+    Go to directory                                         cd + tab (or + "Folder name")
+Creating directories and files
+    Create directory                                        mkdir [folder]
+    Create file                                             cd. > [file.txt] (extension can be different)
+                                                            type nul > [file.txt] (extension can be different)
+    Open file                                               type [index.html]
+Copying, moving and Renaming directories or files
+    Move one or more files or directories                   move [file.txt] [folder]      ([file] into [folder])
+    Move ..... to one level up directory                    move [file.txt] ../           ([file] up to [folder])
+    Move and rename                                         move [file.txt] ../style.css  (([file] up to [folder] + rename)
+    Move to a directory rename                              move [file.txt] ../folder     (([file] to [folder])
+    Rename .....                                            move [file.txt] [style.css]   ([file] to [newfile])
+    Copy a file to specified directory                      copy [file.txt] [folder]
+Delete files, empty or full directories                             (PERMANENTLY DELETES WITHOUT OPTION TO NO RECOVERY)
+    Delete file                                             del [file.txt]
+    Delete multiple files                                   del [file.txt] [style.css] [...] [...]
+    Delete all files in directory                           del [folder]
+    Delete folder with files                                rmdir [folder]
+
+
+
+
+
+

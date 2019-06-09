@@ -1,0 +1,34 @@
+Git Vocabulary
+    Project = Repository (repo) - All changes(history) are saved in there of the project
+    Working directory - Folder on the computer where your project lives. (Working directory for repository)
+    Stage - Before we commit our changes in Git, we have to stage our changes.(Staging = preparing or getting ready)
+            Control what gets committed
+    Commit - Git doesn't do or save any changes until we actually COMMIT(совершаем) those changes. Git's way = "Save"
+
+Gits commands
+    Show status of files modification                                       git status
+    Add ALL changes to the staging area                                     git add -A
+    Commit changes that has been added to staging area                      git commit -m ['message about changes']
+    Restore changes to previous level(undo last changes, even undelete)     git checkout -- .
+
+Git stores all of the changes and versions in a hidden folder in our repository of your hard drive.
+This won't protect your project in case you loose your laptop or data.
+For this case we have a solution called: Repo hosting, which is GitHub
+
+    Push all of the changes from local repository to the GitHub             git push origin master
+    Pull all of the changes from GitHub to our local repository             git pull origin master
+
+Git Bash commands
+    1.Configure your username on the GitHub                                 git config --global user.name "username"
+    2.Configure your email on the GitHub                                    git config --global user.email "email"
+    3.Print(check) working directory                                        pwd
+    4.Create your new project(repo) folder                                  mkdir [folder]
+    5.Navigate to this folder                                               cd [folder]
+    6.Initialise your repository                                            git init
+    7.Create file                                                           touch [file.txt]
+    8.Show the path where you want to push your repo to                     git remote -v
+    9.Clone repo that you've created in GitHub                              git clone [path to your repo]
+    10.Set the url for repo in GitHub                        git remote add origin https://github.com/astrarisa/Test.git
+    11.Set url if cloning existing repo                     git remote set-url origin https://github.com/astrarisa/Test.git
+    12.Pull your repo from GitHub                                           git pull origin master
+    13.Push your repo to GitHub                                             git push -u origin master
